@@ -1,0 +1,101 @@
+/* body {background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);} */
+
+body {
+  background-color: #2d2d2d;
+  color:white;
+  text-align: center;
+}
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  background-color: #965fc7;
+  padding: 30px 40px;
+  color: white;
+  
+}
+
+/* Clear floats after the header */
+/* .header:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 11px;
+  float: left;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 5%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
+.tick-btn {
+  background: #0bf907;
+  /* padding: 10px; */
+  width: 5%;
+}
+
+.remove-btn {
+  background: #f80000;
+  /* padding: 10px; */
+  width: 5%;
+}
+
+.tick-btn:hover {
+  background-color: #0be608;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #b61f1f;
+  cursor: pointer;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: greenyellow;
+}
+
+.arc-btn{
+  background: #f2ff02;
+  /* padding: 10px; */
+  width: 5%;
+}
+
+.arc-btn:hover {
+  background-color: #e1e104;
+  cursor: pointer;
+}
+
+h3 {
+  padding-left:75%
+}
