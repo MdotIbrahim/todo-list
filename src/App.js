@@ -26,7 +26,7 @@ const App = () => {
     const [strike, SetStrike] = useState("none")
     // const [show, SetShow] = useState(0)
     const tickHandler = (index) => { //TODO this button will use class name manipulation via function within classname to strike through p text
-      if (strike == "none"){
+      if (strike === "none"){
         SetStrike("strike")
       }else {
         SetStrike("none")
@@ -35,11 +35,11 @@ const App = () => {
       // setToDos(toDos[index].style = "text-decoration:line-through;")
       // onClick={()=>{tickHandler(index)}}
     }
-    const [show, setShow] = useState(false)
+    // const [show, setShow] = useState(false)
 
-    const handleToggle = () => {
-        setShow(!show)
-    }
+    // const handleToggle = () => {
+    //     setShow(!show)
+    // }
 
     const handleArchive = (index) => {
       if (!(archive.includes(`${toDos[index]}`)) ) {
@@ -109,9 +109,9 @@ const ToDoItem = (props) => {
     )
 }
 
-const complete = (props) => {
+// const complete = (props) => {
 
-}
+// }
 
 
 
